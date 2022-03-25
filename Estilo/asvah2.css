@@ -11,7 +11,7 @@
   
   @font-face {
    font-family:'Passaros';
-   src: url('./Fonte/Birds\ of\ Paradise\ ╕\ PERSONAL\ USE\ ONLY.ttf') format('truetype');
+   src: url('../Fonte/Birds\ of\ Paradise\ ╕\ PERSONAL\ USE\ ONLY.ttf') format('truetype');
    font-weight: normal;
    font-style: normal;
   }
@@ -103,7 +103,7 @@
   
   #botao{
      width: 150px;
-     font-size: 3em;
+     font-size: 2em;
      font-family: 'Passaros';
      background:rgba(25,215,255,0.66);
      border: 0;
