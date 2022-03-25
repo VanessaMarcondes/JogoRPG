@@ -1,0 +1,104 @@
+body{
+    background-image: url(https://cdn.wallpapersafari.com/47/74/wpYBHu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Passaros';
+    src: url('../Fonte/Birds\ of\ Paradise\ ╕\ PERSONAL\ USE\ ONLY.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    font-size: 36px;
+    font-family: 'Passaros';
+    background-color: rgba( 25 , 215 , 255 , 0.70 );
+    width: 380px;
+    text-align: center;
+    padding: 15px 10px 40px 15px;
+    margin: 20px 70px 10px 400px ;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    height: 20px;
+    font-weight: normal;
+}
+
+p{
+    margin: 1px 1px;
+    font-size: 30px;
+    font-family: 'Passaros';
+    padding: 1px;
+}
+
+img{
+    border: inset rgba( 25 , 215 , 255 , 0.11 );
+    border-radius: 5px;
+    margin: 30px 20px;
+    box-shadow: 6px 6px 6px 6px rgba(0,0,0,0.2);
+    text-shadow:10px 10px 10px 10px rgba(0,0,0,0.5);
+}
+
+div{
+    width: 250px;
+    height: 350px;
+    display: inline-block;
+}
+
+.quadrado1{
+    background-color: rgba( 25 , 215 , 255 , 0.70 );
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+    text-align: center;
+    border-radius: 10px;
+    margin: 80px 30px 50px 220px;
+}
+
+.quadrado2{
+    background-color: rgba( 25 , 215 , 255 , 0.70 );
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+    text-align: center;
+    border-radius: 10px;
+    height: 350px;
+    align-items: center;
+    margin: 80px 30px 50px 10px;
+}
+
+.quadrado3{
+    background-color: rgba( 25 , 215 , 255 , 0.70 );
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+    text-align: center;
+    border-radius: 10px;
+    margin: 80px 30px 50px 10px;
+}
+
+.quadrado1:hover{
+background-color: rgba(21,225,295,0.90);
+box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+color: black;
+font-family: 'Passaro';
+}
+
+.quadrado2:hover{
+background-color: rgba(21,225,295,0.90);
+box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+color: black;
+font-family: 'Passaro';
+}
+
+.quadrado3:hover{
+background-color: rgba(21,225,295,0.90);
+box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+color: black;
+font-family: 'Passaro';
+}
+
+

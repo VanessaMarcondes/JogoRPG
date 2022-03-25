@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://cdn.wallpapersafari.com/47/74/wpYBHu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'Barbarian';
+    src: url('../Fonte/Barbarian.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Passaro';
+    src: url('../Fonte/Birds\ of\ Paradise\ ╕\ PERSONAL\ USE\ ONLY.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+ 
+h1{ 
+  padding: 0;
+  background-color: rgba( 25 , 215 , 255 , 0.70) ;
+  font-family: 'Barbarian';
+  margin: 20px 250px;
+  font-size: 80px;
+  font-weight: normal;
+  border-radius: 10px;
+  text-align: center;
+  color: #000000;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+  text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.botao1{
+width: 350px;
+font-size: 2.5em;
+background: rgba(25,215,255,0.80);
+margin: 2px;
+border: 0;
+color:black;
+padding: 0.2em 0.6em;
+box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+position: absolute;
+top: 90%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+border-radius: 9px;
+height: 60px;
+font-family: 'Passaro';
+}
+
+.botao1:hover {
+    background-color: rgba(21,225,295,0.90) ;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+    color: black;
+    font-family:'Passaro' ;
+}
+
