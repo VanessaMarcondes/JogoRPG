@@ -60,7 +60,7 @@
   
   #quadrado2{
    background-color:rgba( 25 , 215 , 255 , 0.60 ); 
-   height: 100px;
+   height: 130px;
    width: 500px;
    padding: 9px;
    text-align: center;
@@ -71,13 +71,13 @@
    top: 87%;
    left: 55%;
    margin-right:-50%;
-   transform: translate(-24%, -260%);
+   transform: translate(-24%, -127%);
   }
   
   #quadrado3{
    background-color: rgba( 25 , 215 , 255 , 0.60 );
-   width: 475px;
-   height: 170px;
+   width: 375px;
+   height: 150px;
    margin: 20px 100px 10px 480px;
    box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
    text-shadow:1px 1px 1px rgba(0,0,0,0.5);
@@ -87,16 +87,17 @@
    top: 57%;
    left: 55%;
    margin-right:-50%;
-   transform: translate(-94%, -1%);
+   transform: translate(-105%, -1%);
   }
   
   li{
+   list-style-type: none;
    font-family: 'Passaros';
-   font-size: 20px;
+   font-size: 26px;
   }
   
   p{
-   font-size: 30px ;
+   font-size: 26px ;
    font-family: 'Passaros';
    justify-items: center;
   }

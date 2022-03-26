@@ -4,9 +4,9 @@ function  certaResposta (){
 
     while( tentativas > 0 )  {
       console.log('while')
-        if  ( respostas  ==  "b" )  {
+        if  ( respostas  ==  "a" )  {
             console.log('if')
-            location.href = "./asvah2.html"
+            location.href = "./venceu2.html"
             break; 
         }
         else {

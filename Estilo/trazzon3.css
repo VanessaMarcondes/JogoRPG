@@ -1,156 +1,157 @@
 *{
-    margin: 0;
-    padding: 0;
-  }
-  
-  body{
-    background-image: url(https://cdn.wallpapersafari.com/47/74/wpYBHu.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  @font-face {
-   font-family:'Passaros';
-   src: url('../Fonte/Birds\ of\ Paradise\ ╕\ PERSONAL\ USE\ ONLY.ttf') format('truetype');
-   font-weight: normal;
-   font-style: normal;
-  }
-  
-  h1{
+   margin: 0;
    padding: 0;
-   background-color: rgba( 25 , 215 , 255 , 0.60);
+ }
+ 
+ body{
+   background-image: url(https://cdn.wallpapersafari.com/47/74/wpYBHu.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+ 
+ @font-face {
+  font-family:'Passaros';
+  src: url('../Fonte/Birds\ of\ Paradise\ ╕\ PERSONAL\ USE\ ONLY.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+ }
+ 
+ h1{
+  padding: 0;
+  background-color: rgba( 25 , 215 , 255 , 0.60);
+  font-family: 'Passaros';
+  margin: 10px 490px;
+  font-size: 45px;
+  font-weight: normal;
+  border-radius: 10px;
+  text-align: center;
+  color: #000000;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+  text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+  width: 518px;
+  height: 60px;
+ }
+ 
+ div{
+  display: inline-block;
+ }
+ 
+ img{
+  margin: 23px 20px;
+  border: inset rgba( 25 , 215 , 255 , 0.11 );
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+ }
+ 
+ #quadrado1{
+  width: 300px;
+  height: 360px;
+  background-color: rgba(21,225,295,0.60);
+  margin: 1px 80px 20px 60px;
+  padding: 9px;
+  text-align: center;
+  padding: 9px;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+  text-align: center;
+  border-radius: 10px;
+ }
+ 
+ #quadrado2{
+  background-color:rgba( 25 , 215 , 255 , 0.60 ); 
+  height: 200px;
+  width: 500px;
+  padding: 9px;
+  text-align: center;
+  margin: 1px 1px 2px 150px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+  text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+  top: 87%;
+  left: 55%;
+  margin-right:-50%;
+  transform: translate(-24%, -70%);
+ }
+ 
+ #quadrado3{
+  background-color: rgba( 25 , 215 , 255 , 0.60 );
+  width: 445px;
+  height: 150px;
+  margin: 20px 100px 10px 480px;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+  text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+  border: inset rgba( 25 , 215 , 255 , 0.2 );
+  border-radius: 10px;
+  padding: 10px 20px;
+  top: 57%;
+  left: 55%;
+  margin-right:-50%;
+  transform: translate(-94%, -2%);
+ }
+ 
+ li{
+ list-style-type: none;
+  font-family: 'Passaros';
+  font-size: 30px;
+ }
+ 
+ p{
+  font-size: 25px ;
+  font-family: 'Passaros';
+  justify-items: center;
+ }
+ 
+ #resposta{
+   width: 150px;
+   font-size: 1.9em;
    font-family: 'Passaros';
-   margin: 10px 490px;
-   font-size: 45px;
-   font-weight: normal;
-   border-radius: 10px;
-   text-align: center;
-   color: #000000;
-   box-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+   background:rgba(25,215,255,0.66);
+   border: 0;
+   margin: 30px 220px;
+   color:black;
+   padding: 0.1em 0.2em;
+   box-shadow: 2px 2px 2px  rgba(0,0,0,0.2);
    text-shadow:1px 1px 1px rgba(0,0,0,0.5);
-   width: 518px;
-   height: 60px;
-  }
-  
-  div{
-   display: inline-block;
-  }
-  
-  img{
-   margin: 23px 20px;
-   border: inset rgba( 25 , 215 , 255 , 0.11 );
-   border-radius: 5px;
-   box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-   text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-  }
-  
-  #quadrado1{
-   width: 300px;
-   height: 360px;
-   background-color: rgba(21,225,295,0.60);
-   margin: 1px 80px 20px 60px;
-   padding: 9px;
-   text-align: center;
-   padding: 9px;
-   box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-   text-shadow:1px 1px 1px rgba(0,0,0,0.5);
-   text-align: center;
-   border-radius: 10px;
-  }
-  
-  #quadrado2{
-   background-color:rgba( 25 , 215 , 255 , 0.60 ); 
-   height: 100px;
-   width: 500px;
-   padding: 9px;
-   text-align: center;
-   margin: 1px 1px 2px 150px;
-   border-radius: 10px;
-   box-shadow: 1px 1px 1px rgba(0,0,0,0.7);
-   text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+   position: absolute;
    top: 87%;
    left: 55%;
    margin-right:-50%;
-   transform: translate(-24%, -260%);
-  }
-  
-  #quadrado3{
-   background-color: rgba( 25 , 215 , 255 , 0.60 );
-   width: 475px;
-   height: 170px;
-   margin: 20px 100px 10px 480px;
-   box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
-   text-shadow:1px 1px 1px rgba(0,0,0,0.5);
-   border: inset rgba( 25 , 215 , 255 , 0.2 );
+   transform: translate(-70%, -50%);
    border-radius: 10px;
-   padding: 10px 20px;
-   top: 57%;
-   left: 55%;
-   margin-right:-50%;
-   transform: translate(-94%, -1%);
-  }
-  
-  li{
-   font-family: 'Passaros';
-   font-size: 20px;
-  }
-  
-  p{
-   font-size: 30px ;
-   font-family: 'Passaros';
-   justify-items: center;
-  }
-  
-  .responder{
-     width: 150px;
-     font-size: 1.9em;
-     font-family: 'Passaros';
-     background:rgba(25,215,255,0.66);
-     border: 0;
-     margin: 30px 220px;
-     color:black;
-     padding: 0.1em 0.2em;
-     box-shadow: 2px 2px 2px  rgba(0,0,0,0.2);
-     text-shadow:1px 1px 1px rgba(0,0,0,0.5);
-     position: absolute;
-     top: 87%;
-     left: 55%;
-     margin-right:-50%;
-     transform: translate(-50%, -50%);
-     border-radius: 10px;
-     text-align: center;
-  }
-  
-  .responder:hover{
-     background-color: rgba(21,225,295,0.90);
-     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-     text-shadow:1px 1px 1px rgba(0,0,0,0.5);
-     color: black;
-  }
-  
-  .menu{
-     width: 200px;
-     font-size: 1.9em;
-     font-family: 'Passaros';
-     background:rgba(25,215,255,0.66);
-     border: 0;
-     margin: 30px 132px;
-     color:black;
-     padding: 0.1em 0.2em;
-     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-     text-shadow:1px 1px 1px rgba(0,0,0,0.5);
-     position: absolute;
-     top: 87%;
-     left: 36%;
-     margin-right:-50%;
-     transform: translate(-50%, -50%);
-     border-radius: 10px;
-     text-align: center;
-  }
-  
-  .menu:hover{
-     background-color: rgba(21,225,295,0.90);
-     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-     text-shadow:1px 1px 1px rgba(0,0,0,0.5);
-     color: black;
-  }
+   text-align: center;
+}
+
+#resposta:hover{
+   background-color: rgba(21,225,295,0.90);
+   box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+   text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+   color: black;
+}
+ 
+ .menu{
+    width: 200px;
+    font-size: 1.9em;
+    font-family: 'Passaros';
+    background:rgba(25,215,255,0.66);
+    border: 0;
+    margin: 30px 132px;
+    color:black;
+    padding: 0.1em 0.2em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 87%;
+    left: 36%;
+    margin-right:-50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    text-align: center;
+ }
+ 
+ .menu:hover{
+    background-color: rgba(21,225,295,0.90);
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+    color: black;
+ }

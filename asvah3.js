@@ -4,10 +4,10 @@ function  certaResposta (){
 
     while( tentativas > 0 )  {
       console.log('while')
-        if  ( respostas  ==  "b" )  {
+        if ( respostas == "b" ) {
             console.log('if')
-            location.href = "./asvah2.html"
-            break; 
+            location.href = "./venceu1.html"
+            break;
         }
         else {
             alert ( `Alternativa incorreta! Você ainda tem ${ tentativas } tentativas` )
